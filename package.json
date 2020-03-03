@@ -15,6 +15,7 @@
     "build": "npm-run-all clean babel",
     "lint": "eslint '*.js' '{src,test}/**/*.js*'",
     "prepublish": "npm run build",
+    "prepare": "npm run build",
     "predeploy": "webpack",
     "deploy": "gh-pages -d dist",
     "publish": "npm run deploy"
