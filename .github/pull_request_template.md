@@ -18,5 +18,4 @@ This forked package is to be deprecated with the resolution of this issue: https
 
 - [ ] _Confirmed all tests are passing_
 - [ ] Witnessed the work behaving as expected (on author's machine or screencast)
-- [ ] All new queries will use appropriate indexes or read from tables with <= 100k rows in production
 - [ ] Has appropriate test coverage **or** lack of tests has been rationalised
